@@ -1,0 +1,17 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+.Header-Logo {
+  color: #555;  
+}
+.Header-Nav {
+  display: flex;
+  flex-direction: row;
+}
+.Header-Nav a {
+  cursor: pointer;
+  margin-right: .5rem; 
+}
